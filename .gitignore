@@ -44,7 +44,7 @@ dw.json
 coverage
 docs/core
 sslcerts/*.pem
-config.js
+config.mjs
 
 db.realm
 db.realm.lock
