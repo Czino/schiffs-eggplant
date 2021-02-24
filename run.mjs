@@ -11,7 +11,7 @@ let realm
 let state
 
 Realm.open({
-  path: path.join(__dirname, 'db.realm'),
+  path: path.join(__dirname + '/schiffs-eggplant', 'db.realm'),
   schema: [ State ]
 })
   .then(async r => {
